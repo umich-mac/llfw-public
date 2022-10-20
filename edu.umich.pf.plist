@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer/DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>edu.umich.pf.plist</string>
+    <key>Program</key>
+    <string>/usr/local/izzy/bin/llfw</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/izzy/bin/llfw</string>
+        <string>engage</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardErrorPath</key>
+    <string>/var/log/pf.log</string>
+    <key>StandardOutPath</key>
+    <string>/var/log/pf.log</string>
+</dict>
+</plist>
